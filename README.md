@@ -1,6 +1,6 @@
 # Network device scanner
 
-## Program description:
+### Program description:
 
 This program is a tool for scanning devices on a local network using ARP requests. It is developed in the Python programming language using the Scapy library for working with network packets.
 
@@ -19,18 +19,18 @@ This program is a tool for scanning devices on a local network using ARP request
 
 This program provides a convenient way to analyze devices on your local network and can be used to identify connected devices, their types and manufacturers.
 
-## Usage
+### Usage
 
 Run the script with the command:
 
 ```python main.py```
 
-## Settings
+### Settings
 
 - Modify `oui_db` to add new MAC address prefixes and their corresponding manufacturers.
 - If necessary, configure the network interface parameters in the `get_router_ip()` function.
 
-## Denial of responsibility
+### Denial of responsibility
 
 Please,
 Use this tool responsibly and with appropriate permissions on your network.
